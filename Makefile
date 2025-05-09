@@ -1,5 +1,5 @@
 
-REPO := efabless/globalfoundries-pdk-libs-gf180mcu_fd_sc_mcu7t5v0
+REPO := fossi-foundation/globalfoundries-pdk-libs-gf180mcu_fd_sc_mcu7t5v0
 
 SCHEMATICS := $(shell find schematics -name "*.sch")
 ALL_SVG_FILES := $(patsubst schematics/%.sch,svg/%.svg,$(SCHEMATICS))
