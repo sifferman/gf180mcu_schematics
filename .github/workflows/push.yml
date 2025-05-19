@@ -51,6 +51,15 @@ jobs:
           make install
           echo "${{ env.tools }}/netgen/bin" >> $GITHUB_PATH
 
+      - name: Install magic
+        run: |
+          git clone --depth 1 https://github.com/RTimothyEdwards/magic
+          cd magic
+          ./configure --prefix=${{ env.tools }}/magic
+          make -j`nproc`
+          make install
+          echo "${{ env.tools }}/magic/bin" >> $GITHUB_PATH
+
       - name: Generate PDK files
         run: |
           git clone --depth 1 git://opencircuitdesign.com/open_pdks
