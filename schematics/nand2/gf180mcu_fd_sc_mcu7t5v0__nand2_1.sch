@@ -40,13 +40,13 @@ L=6e-07
 model=nfet_05v0
 spiceprefix=M
 }
-C {symbols/pfet_06v0.sym} 180 -30 0 0 {name=_i_3
+C {symbols/pfet_05v0.sym} 180 -30 0 0 {name=_i_3
 W=1.13e-06
 L=5e-07
 model=pfet_05v0
 spiceprefix=M
 }
-C {symbols/pfet_06v0.sym} 20 -30 2 1 {name=_i_2
+C {symbols/pfet_05v0.sym} 20 -30 2 1 {name=_i_2
 W=1.13e-06
 L=5e-07
 model=pfet_05v0
