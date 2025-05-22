@@ -2,7 +2,7 @@ name: Test on Pull Request
 
 on:
   pull_request_target:
-  workflow_call:
+  workflow_dispatch:
 
 permissions:
   pull-requests: write
@@ -104,7 +104,7 @@ jobs:
         with:
           name: svg-previews
           path: svg/
-          retention-days: 7
+          retention-days: 30
 
       - name: Comment on PR with SVG artifact link
         if: env.MODIFIED_SCH_FILES != ''

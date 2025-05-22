@@ -2,7 +2,7 @@ name: Test on Push
 
 on:
   push:
-  workflow_call:
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -72,32 +72,32 @@ jobs:
           make all_svg
 
       - name: Tar
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main' && github.event_name == 'workflow_dispatch'
         run: |
           cd svg
           tar -czf cells.tar.gz *
 
       - name: Checkout gf180mcu cells repository
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main' && github.event_name == 'workflow_dispatch'
         uses: actions/checkout@v4
         with:
           repository: fossi-foundation/globalfoundries-pdk-libs-gf180mcu_fd_sc_mcu7t5v0
           path: gf180mcu_fd_sc_mcu7t5v0
 
       - name: Generate progress report
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main' && github.event_name == 'workflow_dispatch'
         run: |
           python3 docs/generate_progress_svg.py gf180mcu_fd_sc_mcu7t5v0/cells schematics progress.svg
 
       - name: Create Tag
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main' && github.event_name == 'workflow_dispatch'
         run: |
           echo "TAG_NAME=$(date +%Y.%m.%d.%H.%M)" >> "$GITHUB_ENV"
           git tag ${{ env.TAG_NAME }}
           git push origin ${{ env.TAG_NAME }}
 
       - name: Create Release
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main' && github.event_name == 'workflow_dispatch'
         uses: ncipollo/release-action@v1
         with:
           allowUpdates: True
