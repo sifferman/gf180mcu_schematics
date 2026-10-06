@@ -72,6 +72,7 @@ jobs:
           echo "${{ env.tools }}/netgen/bin" >> $GITHUB_PATH
 
       - name: Generate PDK files
+        if: env.MODIFIED_SCH_FILES != ''
         run: |
           cd ${{ env.tools }}
           python3 -m venv ciel-venv
