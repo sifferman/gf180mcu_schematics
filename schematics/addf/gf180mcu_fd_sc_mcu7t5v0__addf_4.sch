@@ -268,7 +268,7 @@ N 730 440 730 460 {lab=net9}
 N 730 480 730 460 {lab=net9}
 N 730 460 1000 460 {lab=net9}
 N 180 340 180 290 {lab=VDD}
-N 180 460 180 510 {lab=net7}
+N 180 460 180 510 {lab=MAJ_ABC_n}
 N 300 330 300 310 {lab=VDD}
 N 300 390 300 410 {lab=net1}
 N 420 330 420 310 {lab=VDD}
@@ -277,10 +277,10 @@ N 300 310 420 310 {lab=VDD}
 N 300 410 420 410 {lab=net1}
 N 360 410 360 430 {lab=net1}
 N 360 310 360 290 {lab=VDD}
-N 360 490 360 510 {lab=net7}
+N 360 490 360 510 {lab=MAJ_ABC_n}
 N 180 290 360 290 {lab=VDD}
-N 180 510 360 510 {lab=net7}
-N 180 600 180 550 {lab=net7}
+N 180 510 360 510 {lab=MAJ_ABC_n}
+N 180 600 180 550 {lab=MAJ_ABC_n}
 N 180 720 180 770 {lab=VSS}
 N 300 670 300 650 {lab=net5}
 N 300 730 300 750 {lab=VSS}
@@ -289,29 +289,29 @@ N 420 730 420 750 {lab=VSS}
 N 300 650 420 650 {lab=net5}
 N 300 750 420 750 {lab=VSS}
 N 360 630 360 650 {lab=net5}
-N 360 570 360 550 {lab=net7}
+N 360 570 360 550 {lab=MAJ_ABC_n}
 N 360 750 360 770 {lab=VSS}
-N 180 550 360 550 {lab=net7}
+N 180 550 360 550 {lab=MAJ_ABC_n}
 N 180 770 360 770 {lab=VSS}
-N 270 510 270 530 {lab=net7}
-N 270 550 270 530 {lab=net7}
-N 270 530 440 530 {lab=net7}
+N 270 510 270 530 {lab=MAJ_ABC_n}
+N 270 550 270 530 {lab=MAJ_ABC_n}
+N 270 530 440 530 {lab=MAJ_ABC_n}
 N 660 890 680 890 {lab=CO}
-N 620 860 620 890 {lab=net7}
-N 620 890 620 920 {lab=net7}
-N 600 890 620 890 {lab=net7}
+N 620 860 620 890 {lab=MAJ_ABC_n}
+N 620 890 620 920 {lab=MAJ_ABC_n}
+N 600 890 620 890 {lab=MAJ_ABC_n}
 N 660 1140 680 1140 {lab=CO}
-N 620 1110 620 1140 {lab=net7}
-N 620 1140 620 1170 {lab=net7}
-N 600 1140 620 1140 {lab=net7}
+N 620 1110 620 1140 {lab=MAJ_ABC_n}
+N 620 1140 620 1170 {lab=MAJ_ABC_n}
+N 600 1140 620 1140 {lab=MAJ_ABC_n}
 N 660 1390 680 1390 {lab=CO}
-N 620 1360 620 1390 {lab=net7}
-N 620 1390 620 1420 {lab=net7}
-N 600 1390 620 1390 {lab=net7}
+N 620 1360 620 1390 {lab=MAJ_ABC_n}
+N 620 1390 620 1420 {lab=MAJ_ABC_n}
+N 600 1390 620 1390 {lab=MAJ_ABC_n}
 N 660 1640 680 1640 {lab=CO}
-N 620 1610 620 1640 {lab=net7}
-N 620 1640 620 1670 {lab=net7}
-N 600 1640 620 1640 {lab=net7}
+N 620 1610 620 1640 {lab=MAJ_ABC_n}
+N 620 1640 620 1670 {lab=MAJ_ABC_n}
+N 600 1640 620 1640 {lab=MAJ_ABC_n}
 N 1000 460 1050 460 {lab=net9}
 N 1050 100 1050 350 {lab=net9}
 N 1050 350 1050 460 {lab=net9}
@@ -350,7 +350,7 @@ C {lab_pin.sym} 810 290 0 0 {name=p38 sig_type=std_logic lab=B}
 C {lab_pin.sym} 850 290 2 0 {name=p39 sig_type=std_logic lab=VNW}
 C {lab_pin.sym} 940 290 0 0 {name=p40 sig_type=std_logic lab=CI}
 C {lab_pin.sym} 980 290 2 0 {name=p41 sig_type=std_logic lab=VNW}
-C {lab_pin.sym} 810 390 0 0 {name=p42 sig_type=std_logic lab=net7}
+C {lab_pin.sym} 810 390 0 0 {name=p42 sig_type=std_logic lab=MAJ_ABC_n}
 C {lab_pin.sym} 850 390 2 0 {name=p43 sig_type=std_logic lab=VNW}
 C {lab_pin.sym} 570 530 0 0 {name=p44 sig_type=std_logic lab=CI}
 C {lab_pin.sym} 610 530 2 0 {name=p45 sig_type=std_logic lab=VPW}
@@ -359,7 +359,7 @@ C {lab_pin.sym} 610 590 2 0 {name=p47 sig_type=std_logic lab=VPW}
 C {lab_pin.sym} 570 650 0 0 {name=p48 sig_type=std_logic lab=A}
 C {lab_pin.sym} 730 700 3 0 {name=p49 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} 610 650 2 0 {name=p50 sig_type=std_logic lab=VPW}
-C {lab_pin.sym} 810 530 0 0 {name=p51 sig_type=std_logic lab=net7}
+C {lab_pin.sym} 810 530 0 0 {name=p51 sig_type=std_logic lab=MAJ_ABC_n}
 C {lab_pin.sym} 850 530 2 0 {name=p52 sig_type=std_logic lab=VPW}
 C {lab_pin.sym} 690 630 0 0 {name=p53 sig_type=std_logic lab=A}
 C {lab_pin.sym} 730 630 2 0 {name=p54 sig_type=std_logic lab=VPW}
@@ -370,7 +370,7 @@ C {lab_pin.sym} 980 630 2 0 {name=p58 sig_type=std_logic lab=VPW}
 C {lab_pin.sym} 140 370 0 0 {name=p59 sig_type=std_logic lab=A}
 C {lab_pin.sym} 270 290 1 0 {name=p60 sig_type=std_logic lab=VDD}
 C {lab_pin.sym} 180 370 2 0 {name=p61 sig_type=std_logic lab=VNW}
-C {lab_pin.sym} 440 530 2 0 {name=p62 sig_type=std_logic lab=net7}
+C {lab_pin.sym} 440 530 2 0 {name=p62 sig_type=std_logic lab=MAJ_ABC_n}
 C {lab_pin.sym} 140 430 0 0 {name=p63 sig_type=std_logic lab=B}
 C {lab_pin.sym} 180 430 2 0 {name=p64 sig_type=std_logic lab=VNW}
 C {lab_pin.sym} 260 360 0 0 {name=p65 sig_type=std_logic lab=A}
@@ -391,25 +391,25 @@ C {lab_pin.sym} 300 700 2 0 {name=p79 sig_type=std_logic lab=VPW}
 C {lab_pin.sym} 380 700 0 0 {name=p80 sig_type=std_logic lab=B}
 C {lab_pin.sym} 420 700 2 0 {name=p81 sig_type=std_logic lab=VPW}
 C {lab_pin.sym} 680 890 2 0 {name=p82 sig_type=std_logic lab=CO}
-C {lab_pin.sym} 600 890 0 0 {name=p83 sig_type=std_logic lab=net7}
+C {lab_pin.sym} 600 890 0 0 {name=p83 sig_type=std_logic lab=MAJ_ABC_n}
 C {lab_pin.sym} 660 830 1 0 {name=p84 sig_type=std_logic lab=VDD}
 C {lab_pin.sym} 660 860 2 0 {name=p85 sig_type=std_logic lab=VNW}
 C {lab_pin.sym} 660 950 3 0 {name=p86 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} 660 920 2 0 {name=p87 sig_type=std_logic lab=VPW}
 C {lab_pin.sym} 680 1140 2 0 {name=p88 sig_type=std_logic lab=CO}
-C {lab_pin.sym} 600 1140 0 0 {name=p89 sig_type=std_logic lab=net7}
+C {lab_pin.sym} 600 1140 0 0 {name=p89 sig_type=std_logic lab=MAJ_ABC_n}
 C {lab_pin.sym} 660 1080 1 0 {name=p90 sig_type=std_logic lab=VDD}
 C {lab_pin.sym} 660 1110 2 0 {name=p91 sig_type=std_logic lab=VNW}
 C {lab_pin.sym} 660 1200 3 0 {name=p92 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} 660 1170 2 0 {name=p93 sig_type=std_logic lab=VPW}
 C {lab_pin.sym} 680 1390 2 0 {name=p94 sig_type=std_logic lab=CO}
-C {lab_pin.sym} 600 1390 0 0 {name=p95 sig_type=std_logic lab=net7}
+C {lab_pin.sym} 600 1390 0 0 {name=p95 sig_type=std_logic lab=MAJ_ABC_n}
 C {lab_pin.sym} 660 1330 1 0 {name=p96 sig_type=std_logic lab=VDD}
 C {lab_pin.sym} 660 1360 2 0 {name=p97 sig_type=std_logic lab=VNW}
 C {lab_pin.sym} 660 1450 3 0 {name=p98 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} 660 1420 2 0 {name=p99 sig_type=std_logic lab=VPW}
 C {lab_pin.sym} 680 1640 2 0 {name=p100 sig_type=std_logic lab=CO}
-C {lab_pin.sym} 600 1640 0 0 {name=p101 sig_type=std_logic lab=net7}
+C {lab_pin.sym} 600 1640 0 0 {name=p101 sig_type=std_logic lab=MAJ_ABC_n}
 C {lab_pin.sym} 660 1580 1 0 {name=p102 sig_type=std_logic lab=VDD}
 C {lab_pin.sym} 660 1610 2 0 {name=p103 sig_type=std_logic lab=VNW}
 C {lab_pin.sym} 660 1700 3 0 {name=p104 sig_type=std_logic lab=VSS}

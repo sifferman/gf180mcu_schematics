@@ -84,18 +84,18 @@ L=6e-07
 model=nfet_05v0
 spiceprefix=M}
 N 800 160 820 160 {lab=CO}
-N 760 130 760 160 {lab=NCO}
-N 760 160 760 190 {lab=NCO}
-N 740 160 760 160 {lab=NCO}
+N 760 130 760 160 {lab=NAND_AB}
+N 760 160 760 190 {lab=NAND_AB}
+N 740 160 760 160 {lab=NAND_AB}
 N 180 110 180 90 {lab=VDD}
-N 180 170 180 190 {lab=NCO}
+N 180 170 180 190 {lab=NAND_AB}
 N 300 110 300 90 {lab=VDD}
-N 300 170 300 190 {lab=NCO}
+N 300 170 300 190 {lab=NAND_AB}
 N 180 90 300 90 {lab=VDD}
-N 180 190 300 190 {lab=NCO}
-N 240 190 240 210 {lab=NCO}
-N 240 230 240 210 {lab=NCO}
-N 240 210 320 210 {lab=NCO}
+N 180 190 300 190 {lab=NAND_AB}
+N 240 190 240 210 {lab=NAND_AB}
+N 240 230 240 210 {lab=NAND_AB}
+N 240 210 320 210 {lab=NAND_AB}
 N 500 90 500 40 {lab=VDD}
 N 500 150 500 200 {lab=NS}
 N 620 60 620 40 {lab=VDD}
@@ -119,12 +119,12 @@ N 690 410 710 410 {lab=NS}
 N 640 220 690 220 {lab=NS}
 N 690 220 690 410 {lab=NS}
 C {lab_pin.sym} 820 160 2 0 {name=p8 sig_type=std_logic lab=CO}
-C {lab_pin.sym} 740 160 0 0 {name=p9 sig_type=std_logic lab=NCO}
+C {lab_pin.sym} 740 160 0 0 {name=p9 sig_type=std_logic lab=NAND_AB}
 C {lab_pin.sym} 800 100 1 0 {name=p10 sig_type=std_logic lab=VDD}
 C {lab_pin.sym} 800 130 2 0 {name=p11 sig_type=std_logic lab=VNW}
 C {lab_pin.sym} 800 220 3 0 {name=p12 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} 800 190 2 0 {name=p13 sig_type=std_logic lab=VPW}
-C {lab_pin.sym} 320 210 2 0 {name=p14 sig_type=std_logic lab=NCO}
+C {lab_pin.sym} 320 210 2 0 {name=p14 sig_type=std_logic lab=NAND_AB}
 C {lab_pin.sym} 140 140 0 0 {name=p15 sig_type=std_logic lab=A}
 C {lab_pin.sym} 240 90 1 0 {name=p16 sig_type=std_logic lab=VDD}
 C {lab_pin.sym} 180 140 2 0 {name=p17 sig_type=std_logic lab=VNW}
@@ -135,7 +135,7 @@ C {lab_pin.sym} 240 260 2 0 {name=p21 sig_type=std_logic lab=VPW}
 C {lab_pin.sym} 200 320 0 0 {name=p22 sig_type=std_logic lab=A}
 C {lab_pin.sym} 240 350 3 0 {name=p23 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} 240 320 2 0 {name=p24 sig_type=std_logic lab=VPW}
-C {lab_pin.sym} 460 120 0 0 {name=p25 sig_type=std_logic lab=NCO}
+C {lab_pin.sym} 460 120 0 0 {name=p25 sig_type=std_logic lab=NAND_AB}
 C {lab_pin.sym} 560 40 1 0 {name=p26 sig_type=std_logic lab=VDD}
 C {lab_pin.sym} 500 120 2 0 {name=p27 sig_type=std_logic lab=VNW}
 C {lab_pin.sym} 580 90 0 0 {name=p28 sig_type=std_logic lab=B}
@@ -146,7 +146,7 @@ C {lab_pin.sym} 460 290 0 0 {name=p32 sig_type=std_logic lab=A}
 C {lab_pin.sym} 500 290 2 0 {name=p33 sig_type=std_logic lab=VPW}
 C {lab_pin.sym} 580 290 0 0 {name=p34 sig_type=std_logic lab=B}
 C {lab_pin.sym} 620 290 2 0 {name=p35 sig_type=std_logic lab=VPW}
-C {lab_pin.sym} 520 390 0 0 {name=p36 sig_type=std_logic lab=NCO}
+C {lab_pin.sym} 520 390 0 0 {name=p36 sig_type=std_logic lab=NAND_AB}
 C {lab_pin.sym} 560 420 3 0 {name=p37 sig_type=std_logic lab=VSS}
 C {lab_pin.sym} 560 390 2 0 {name=p38 sig_type=std_logic lab=VPW}
 C {lab_pin.sym} 770 410 2 0 {name=p39 sig_type=std_logic lab=S}
